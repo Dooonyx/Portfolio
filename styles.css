@@ -1,0 +1,174 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    cursor: grab;
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    overflow: hidden;
+    width: 300vh;
+    position: absolute;
+}
+
+.modalbox{
+    /* border: solid red 10px; */
+    display: block;
+    position: absolute;
+}
+
+.Moi{
+    height: 30vh;
+    width: 48vh;
+    top: 0vh;
+    left: 38vh;
+}
+
+.PathFinder{
+    height: 30vh;
+    width: 40vh;
+    top: 105vh;
+    left: 126vh;
+}
+
+.Lhandlers{
+    height: 30vh;
+    width: 20vh;
+    top: 125vh;
+    left: 5vh;
+}
+
+
+.Numerique{
+    height: 26vh;
+    width: 30vh;
+    top: 231vh;
+    left: 22vh;
+}
+
+.Video{
+    height: 21vh;
+    width: 35vh;
+    top: 3vh;
+    left: 153vh;
+}
+
+.Motion{
+    height: 42vh;
+    width: 45vh;
+    top: 191vh;
+    left: 137vh;
+}
+
+.Quoridor{
+    height: 18vh;
+    width: 17vh;
+    top: 65vh;
+    left: 270vh;
+}
+
+.Robot{
+    height: 65vh;
+    width: 30vh;
+    top: 211vh;
+    left: 255vh;
+}
+
+.Titlebox{
+    background-color: rgba(0,0,0,0.4);
+    color: white;
+    position: absolute;
+    font-size: 3vh;
+    display: block;
+    padding: 5px;
+}
+
+.TitleMoi{
+    top: 1vh;
+    left: 48vh;
+}
+
+.TitlePF{
+    top: 105vh;
+    left: 140vh;
+}
+
+.TitleLhand{
+    top: 123vh;
+    left: 8vh;
+}
+
+.TitleCVN{
+    top: 230vh;
+    left: 30vh;
+}
+
+.TitleCVV{
+    top: 1vh;
+    left: 165vh;
+}
+
+.TitleMD{
+    top: 190vh;
+    left: 150vh;
+}
+
+.TitleRob{
+    top: 210vh;
+    left: 267vh;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80vw; /* Could be more or less, depending on screen size */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+
+  .modal-content > h1 {
+      border-bottom: solid black 3px;
+      padding-bottom: 10px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  @keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+  }
+
+  
